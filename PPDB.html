@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPDB - SMK Plus Pratama Adi</title>
+    <link rel="stylesheet" href="CT.css">
+</head>
+<body>
+
+    <section id="ppdb-form">
+        <h1>Pendaftaran Peserta Didik Baru</h1>
+        <p>Silakan isi formulir berikut untuk mendaftar di SMK Plus Pratama Adi.</p>
+        
+        <form action="submit_form.php" method="post">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="nisn">NISN:</label>
+            <input type="number" id="nisn" name="nisn" required>
+
+            <label for="ttl">Tanggal Lahir:</label>
+            <input type="date" id="ttl" name="ttl" required>
+
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" required></textarea>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="number" id="telepon" name="telepon" required>
+
+            <label for="jurusan">Pilih Jurusan:</label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="">--Pilih Jurusan--</option>
+                <option value="tkj">Teknik Komputer dan Jaringan (TKJ)</option>
+                <option value="akuntansi">Akuntansi</option>
+            </select>
+
+            <label for="asal_sekolah">Asal Sekolah:</label>
+            <input type="text" id="asal_sekolah" name="asal_sekolah" required>
+            <h2>Informasi Orang Tua</h2>
+
+            <label for="nama_ortu">Nama Ayah:</label>
+            <input type="text" id="Nama ayah" name="nama_ayah" required>
+
+            <label for="pekerjaan_ortu">Pekerjaan Ayah:</label>
+            <input type="text" id="pekerjaan_ortu" name="pekerjaan_ortu" required>
+
+            <label for="telepon_ortu">Nomor Telepon :</label>
+            <input type="tel" id="telepon_ortu" name="telepon_ortu" required>
+            <label for="nama_ortu">Nama Orang Ibu:</label>
+            <input type="text" id="nama_ortu" name="nama_ortu" required>
+
+            <label for="pekerjaan_ortu">Pekerjaan Ibu:</label>
+            <input type="text" id="pekerjaan_ortu" name="pekerjaan_ortu" required>
+
+            <label for="telepon_ortu">Nomor Telepon Ibu:</label>
+            <input type="tel" id="telepon_ortu" name="telepon_ortu" required>
+            <button type="submit" class="btn-primary">Kirim Pendaftaran</button>
+        </form>
+    </section>
+
+    <footer>
+        <center><p>&copy; 2024 SMK Plus Pratama Adi. All Rights Reserved.</p></center>
+    </footer>
+</body>
+</html>

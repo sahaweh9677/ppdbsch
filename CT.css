@@ -1,0 +1,47 @@
+/* Form PPDB */
+#ppdb-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#ppdb-form h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+#ppdb-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#ppdb-form input[type="text"],
+#ppdb-form input[type="email"],
+#ppdb-form input[type="tel"],
+#ppdb-form input[type="date"],
+#ppdb-form select,
+#ppdb-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#ppdb-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ppdb-form button:hover {
+    background-color: #2980b9;
+}
